@@ -9,11 +9,13 @@ DO $$
             ('Point Break'),
             ('Dark Waters');
         INSERT INTO reviews (movie_id, review) VALUES
-            (1, 'Excellent movie.'),
-            (2, 'Could have been better'),
+            (2, 'Excellent movie.'),
+            (1, 'Could have been better'),
             (3, 'So funny!'),
-            (4, 'Made me cry.'),
-            (5, 'Thrilling!');
+            (5, 'Made me cry.'),
+            (1, 'Thrilling!'),
+            (3, 'Best movie ever!'),
+            (2, 'Crazy stunts and action.');
         
     RAISE NOTICE 'Transaction complete';
 
